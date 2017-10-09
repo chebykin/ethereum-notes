@@ -12,3 +12,6 @@
 
 ## Web3.js
 * v1.x.x doesn't support synchronous calls like v0.x.x, so it's uncompatible with TestRPC https://github.com/trufflesuite/ganache-core/pull/14 (Oct 9, 2017)
+
+### Bugs
+* v0.x.x contract creation callback can be triggered 2 times: after transaction creation and after transaction verified. But can not.
