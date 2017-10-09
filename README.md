@@ -1,4 +1,4 @@
-# Etherem Notes
+# Ethereum Notes
 
 ## TestRPC
 * TestRPC is a wrapper around ganacha-core.
